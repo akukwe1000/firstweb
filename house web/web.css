@@ -1,0 +1,227 @@
+/* ------ common fixes  fix start here ------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2000px;
+  background: rgb(99,99,99);
+}
+/* ------ common fixes  fix ends here ------- */
+
+
+
+/* -------- first section starts here --------  */
+.first-section{
+  height: 460px;
+  /* border: 3px solid black; */
+  display: flex;
+}
+
+
+
+
+/* -----first section left starts here--------- */
+.firstsection-left{
+  padding: 30px;
+  background-color: #d9d9d9;
+  height: 100%;
+  width: 50%;
+}
+.column{
+  color: tomato;
+}
+.the-column{
+  margin-bottom: 30px;
+}
+.building{
+  margin-bottom: 30px;
+}
+.line{
+  height: 10px;
+  background: rgb(255, 110, 85);
+  width: 200px;
+}
+.lorem{
+  margin-bottom: 20px;
+}
+/* -----first section left ends here--------- */
+
+
+
+/* -----first section right starts here--------- */
+.firstsection-right{
+  height: 100%;
+  width: 50%;
+  background:linear-gradient(to right,   rgba(244,107,69,0.4),rgba(255,99,71,0.4)), url('./image/house.png') ;
+  background-size: cover;
+  background-position: bottom left;
+  padding: 50px 0;
+  text-transform: uppercase;
+  color: white;
+}
+.link-holder{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* -----first section right ends here--------- */
+
+/* -------- first section ends here --------  */
+
+/* second section starts here */
+.second-section{
+  /* border: 3px solid tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+/* second section left starts here  */ 
+.secondsection-left{
+  padding: 40px 25px;
+  background: #d9d9d9 ;
+  height: 400px;
+  width: 310px;
+  /* border: 3px solid black; */
+}
+.secondsection-left p{
+  margin-bottom: 25px;
+}
+.secondsection-left h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* second section left ends here  */
+
+/* second section right starts here  */
+.secondsection-right{
+  height: 460px;
+  width: 340px;
+  /* border: 3px solid purple; */
+  margin-left: 20px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+/* second section left ends here  */
+
+/* second section ends here */
+
+
+
+
+/* third section starts here */
+.third-section{
+  /* border: 3px solid tomato; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+
+}
+.thirdsection-left{
+  height:460px ;
+  width: 340px;
+  /* border: 3px solid black; */
+  background: url(./image/lampchair.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+}
+.thirdsection-right{
+  height:460px ;
+  width: 340px;
+  /* border: 3px solid purple; */
+  background: tomato;
+  padding: 20px;
+}
+.thirdsection-right p{
+  margin-bottom: 25px;
+}
+
+
+
+
+/* third section ends here */
+
+
+
+/* footer section starts here */
+footer{
+  border: 3px solid tomato;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: tomato;
+}
+.footer-icon{
+  /* border: 3px solid black; */
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 50px;
+}
+footer p{
+  font-size: 20px;
+  color: white;
+}
+.footer-image{
+  width: 60px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* footer section ends here */
+
+
+
+
+
+.pfirst-section{
+  border: 3px solid black;
+  height: 100%;
+  width: 50%;
+}
+.pfirst-section h4{
+text-transform: uppercase;
+}
+
+.blue{
+  background: blue;
+  height: 50px;
+  margin-top: 50px;
+  width: 150px;
+}
+.ash{
+  background: rgb(201, 199, 199);
+  height: 50px;
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.con{
+  display: flex;
+  margin-left: 50px;
+  background: white;
+  width: 800px;
+  height: 200px;
+  padding-left: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+

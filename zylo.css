@@ -1,0 +1,63 @@
+.size{
+  min-height: 400px;
+}
+.navbar-backgroundcolor{
+  background-color: blueviolet;
+  color: white ;
+}
+.anchor{
+  color: white;
+}
+.hambuger{
+  /* border: 2px solid black; */
+  width: 50px;
+  display: flex;
+  align-items: center;
+  z-index: 4;
+}
+.menu{
+  background: white;
+  width: 100%;
+  height: 3px;
+  position: relative;
+  z-index: 6;
+
+}
+.menu::after{
+  content: '';
+  background: white;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  transform: translatey(-10px);
+
+}
+.menu::before{
+  content: '';
+  background: white;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  transform: translatey(10px);
+}
+.slide-link{
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(200%);
+  z-index: 4;
+  transition: all 0.5s;
+}
+.show-slide-link{
+  transform: translateX(0);
+}
+.dithatiwantochange{
+  color: white;
+  list-style: none;
+}
+.dithatiwantochange:hover{
+  color: white;
+}
+.black{
+  color: black;
+}

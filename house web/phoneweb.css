@@ -1,0 +1,61 @@
+/* fist section starts here */
+@media screen  and (max-width: 600px) {
+  .firstsection-left{
+    width: 60%;
+  }
+  .firstsection-right{
+    width: 40%;
+  }
+  .link-holder{
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .link-holder h4 {
+    margin-bottom: 20px;
+  }
+/* fist section stops here */
+
+/* second section starts here */
+.secondsection-right{
+  margin-left: 0;
+  margin-top: 30px;
+}
+/* second section ends here */
+
+/* third section starts here */
+.thirdsection-right{
+  margin-bottom: 30px;
+  margin-right: 0;
+}
+.third-section{
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 50px 0;
+  background: #d9d9d9;
+}
+.thirdsection-left{
+  margin-right: 0;
+}
+
+/* third section ends here */
+
+
+
+
+/* footer section startss here */
+footer{
+  flex-direction: column;
+  
+}
+footer p {
+  text-align: center;
+}
+
+
+/* footer section ends here */
+
+
+
+}
+
+

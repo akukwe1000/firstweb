@@ -1,0 +1,169 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+  display: flex;
+  height: 80px;
+  flex: 1;
+  align-items: center;
+}
+/* dash pixs */
+.dash{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  flex: 4;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.search::placeholder{
+  font-size: 20px;
+}
+.search{
+  width: 500px;
+  height: 35px;
+  border: 1px;
+  border-color: rgb(219, 219, 219);
+  border-style: solid;
+  padding-left: 15px;
+}
+.searchi{
+  width: 29px;
+
+}
+.searchb{
+  width: 70px;
+  height: 41px;
+  border: 1px;
+  border-color: rgb(219, 219, 219);
+
+}
+.speak{
+  height: 20px;
+}
+.speakb{
+  height: 41px;
+  border-radius: 17px;
+  border: none;
+  margin-left: 20px;
+}
+
+.left{
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.videob{
+  height: 31px;
+  border: none;
+}
+.boxb{
+  height: 31px;
+  border: none;
+
+}
+.bellb{
+  height: 31px;
+  border: none;
+
+}
+.img{
+  height: 29px;
+
+}
+.imgb{
+  height: 31px;
+  border: none;
+
+}
+
+
+
+/* this is the booddy of the  */
+
+.chaneli{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  
+}
+.chanelpa{
+  display: inline-block;
+}
+.google{
+  margin: 0;
+  font-size:20px;
+  font-weight: bold;
+}
+.google-views{
+  color: rgb(99,99,99);
+  font-weight: bold;
+}
+.chanelpi-chanelpa{
+  margin-top: 10px;
+}
+
+
+.f{
+  height: 20px;
+  background: purple;
+}
+.s{
+  height: 20px;
+  background: green;
+}
+.t{
+  height: 20px;
+  background: tomato;
+}
+
+
+/* practice start here */
+.practice{
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+  transform: translateY(-500px); 
+  transition: transform 3s;
+}
+.practice:hover{
+  transform: translateY(0);
+}
+.guide{
+  padding-bottom: 200px;
+}
+
+/* practice ends here */
+
+.parent{
+  height: 200px;
+  width: 200px;
+  border: 3px solid tomato;
+  position: relative;
+
+}
+.child{
+  height: 100%;
+  width: 0;
+  background: tomato;
+  position: absolute;
+  left:0 ;
+  transition: all 3s;
+}
+
+.parent:hover .child{
+  width:100%;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 500px;
+}

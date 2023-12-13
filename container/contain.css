@@ -1,0 +1,139 @@
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.total-fist{
+  height: 500px;
+  width: 100%;
+  border: 2px solid tomato;
+  display: flex;
+}
+.first-left{
+  border: 3px solid purple;
+  width: 50%;
+  height: 100%;
+  padding: 20px 50px;
+  background: rgb(239, 234, 234);
+}
+.colom span{
+  color: tomato;
+}
+.build-writeup h1{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+
+}
+.dash{
+  background: tomato;
+  height: 20px;
+  width: 400px;
+}
+.colom{
+  padding-bottom: 50px;
+}
+.domi-text p{
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+/* first right here starts here  */
+
+.first-right{
+  border: 2px solid blue;
+  width: 50%;
+  height: 100%;
+  background:linear-gradient( to right,  rgba(244,107,69,0.4), rgba(255,99,71,0.4)), url(./house.png) ;
+  background-position: bottom left;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.link-holder{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.link-holder a{
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+/* second section starts here */
+/* second  left  */
+.total-second{
+  height: 500px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-left{
+  height: 400px;
+  width: 310px;
+  border: 2px solid blue;
+  background:rgb(239, 234, 234);
+  padding: 20px 20px;
+}
+.second-left p{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.sec-writeup{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+/* second right starts here */
+.second-right{
+  height: 460px;
+  width: 340px;
+  border: 2px solid tomato;
+  background: url('./lampchair.png');
+  background-size: cover;
+}
+.hambuger{
+  height: 30px;
+  width: 30px;
+  /* border: 2px solid black;  */
+  display: flex;
+  align-items: center;
+}
+.menu{
+  height: 3px;
+  width: 100%;
+  background: white;
+  position: relative;
+}
+.menu::before{
+  content: '';
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  background: white;
+  transform: translateY(-10px);
+}
+.menu::after{
+  content: '';
+  height: 3px;
+  width: 100%;
+  background:white ;
+  position: absolute;
+  transform: translateY(10px);
+}
+.show .menu{
+  background: transparent;
+}
+.show .menu::before{
+  transform: rotate(45deg) translateY(0);
+}
+.show .menu::after{
+  transform: rotate(-45deg) translateY(0);
+}
